@@ -27,8 +27,11 @@
         <label>Email</label>
         <input type="email" name="Email" required />
 
-        <label>School</label>
-        <input type="text" name="School" required />
+        <label for="school">School</label>
+        <input id="school" name="School" list="schoolList" placeholder="Start typing to search…" required />
+        <datalist id="schoolList"></datalist>
+        <!-- Consultant info panel -->
+        <div id="consultantInfo" class="consultant-info" aria-live="polite" hidden></div>
 
         <label>Role</label>
         <select name="Role" id="roleSelect" required>
@@ -107,6 +110,7 @@
     </form>
   </div>
 
-  <script src="script.js"></script>
+  <script src="reference.js"></script>
+  <script src="script.js" defer></script>
 </body>
 </html>
