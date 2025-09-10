@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <title>Vivarch ·  Programme Survey</title>
+  <title>Vivarch · Programme Survey</title>
 
   <link rel="stylesheet" href="style.css" />
 </head>
@@ -22,16 +22,16 @@
       <!-- Teacher Info -->
       <section>
         <label>Name</label>
-        <input type="text" name="name" required />
+        <input type="text" name="Name" required />
 
         <label>Email</label>
-        <input type="email" name="email" required />
+        <input type="email" name="Email" required />
 
         <label>School</label>
-        <input type="text" name="school" required />
+        <input type="text" name="School" required />
 
         <label>Role</label>
-        <select name="role" id="roleSelect" required>
+        <select name="Role" id="roleSelect" required>
           <option value="">Select</option>
           <option>Subject Teacher</option>
           <option>HOD</option>
@@ -40,39 +40,39 @@
           <option>Senior Teacher</option>
           <option value="Others">Others</option>
         </select>
-        <input type="text" id="roleOther" name="role_other" placeholder="Please specify" style="display:none;" />
+        <input type="text" id="roleOther" name="Role_Other" placeholder="Please specify" style="display:none;" />
 
         <label>Subject Area(s)</label>
-        <input type="text" name="subjects" placeholder="e.g. Science, English" />
+        <input type="text" name="Subject Area(s)" placeholder="e.g. Science, English" />
       </section>
 
       <!-- Needs Assessment -->
       <section>
         <label>Priority Areas (choose all that apply)</label>
         <div class="checkboxes">
-          <label><input type="checkbox" name="priority" value="STEM & Innovation"> STEM & Innovation</label>
-          <label><input type="checkbox" name="priority" value="Arts & Culture"> Arts & Culture</label>
-          <label><input type="checkbox" name="priority" value="Student Leadership"> Student Leadership</label>
-          <label><input type="checkbox" name="priority" value="Well-being & Resilience"> Well-being & Resilience</label>
-          <label><input type="checkbox" name="priority" value="Environmental Sustainability"> Environmental Sustainability</label>
-          <label><input type="checkbox" id="priorityOtherChk" name="priority" value="Others"> Others</label>
+          <label><input type="checkbox" name="Priority Areas" value="STEM & Innovation"> STEM & Innovation</label>
+          <label><input type="checkbox" name="Priority Areas" value="Arts & Culture"> Arts & Culture</label>
+          <label><input type="checkbox" name="Priority Areas" value="Student Leadership"> Student Leadership</label>
+          <label><input type="checkbox" name="Priority Areas" value="Well-being & Resilience"> Well-being & Resilience</label>
+          <label><input type="checkbox" name="Priority Areas" value="Environmental Sustainability"> Environmental Sustainability</label>
+          <label><input type="checkbox" id="priorityOtherChk" name="Priority Areas" value="Others"> Others</label>
         </div>
-        <input type="text" id="priorityOther" name="priority_other" placeholder="Please specify" style="display:none;" />
+        <input type="text" id="priorityOther" name="Priority_Areas_Other" placeholder="Please specify" style="display:none;" />
 
         <label>Challenges your school is facing</label>
-        <input type="text" name="challenges" placeholder="e.g. Student engagement, workload" />
+        <input type="text" name="Challenges" placeholder="e.g. Student engagement, workload" />
 
         <label>Student Levels</label>
-        <input type="text" name="levels" placeholder="e.g. Primary, Lower Sec" />
+        <input type="text" name="Student Levels" placeholder="e.g. Primary, Lower Sec" />
       </section>
 
       <!-- Programme Preferences -->
       <section>
         <label>Preferred Programme Formats</label>
-        <input type="text" name="formats" placeholder="e.g. Workshops, Camps, Online" />
+        <input type="text" name="Preferred Format" placeholder="e.g. Workshops, Camps, Online" />
 
         <label>Ideal Duration</label>
-        <select name="duration">
+        <select name="Duration">
           <option value="">Select</option>
           <option>1–2 hours</option>
           <option>Half-day</option>
@@ -80,22 +80,26 @@
           <option>Multi-session</option>
         </select>
 
+        <label>Tentative Schedule</label>
+        <input type="text" name="Schedule" placeholder="e.g. March, Term 2, Semester 1, After Exams" />
+
         <label>Group Size</label>
-        <select name="groupSize">
+        <select name="Group Size">
           <option value="">Select</option>
           <option>&lt;30</option>
           <option>30–100</option>
-          <option>&gt;100</option>
+          <option>100–200</option>
+          <option>&gt;200</option>
         </select>
       </section>
 
       <!-- Open Input -->
       <section>
         <label>If Vivarch could design one programme for your school, what would it focus on?</label>
-        <textarea name="focus"></textarea>
+        <textarea name="Focus Request"></textarea>
 
         <label>Additional Comments</label>
-        <textarea name="comments"></textarea>
+        <textarea name="Comments"></textarea>
       </section>
 
       <button type="submit" class="submit-btn">Submit</button>
