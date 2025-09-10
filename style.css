@@ -127,3 +127,14 @@ textarea {
   color: var(--primary);
   text-align: center;
 }
+
+.consultant-info{
+  margin-top:8px;
+  font-size:0.95rem;
+  line-height:1.4;
+  background:#f5fbff;
+  color:#004a4a;
+  border:1px solid #e1f0f0;
+  border-radius:12px;
+  padding:10px 12px;
+}
