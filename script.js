@@ -2,7 +2,7 @@ const form = document.getElementById("surveyForm");
 const statusEl = document.getElementById("status");
 
 // ✅ Your deployed Google Apps Script Web App URL
-const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwpa1v8K-0NQ15KpcS0u4iwdrdkSl46qB7kgS6xDurMMSwNCv4FFUk_ZO5UZpz_ZPmL/exec";
+const SCRIPT_URL = "https://script.google.com/macros/s/AKfycby9Rbsp009KGsg_TScpbIbMKtRnukuzOzfDbFZd5tqtySFWrx9NzXlRjSJQUx2u37WE/exec";
 
 form.addEventListener("submit", async (e) => {
   e.preventDefault();
